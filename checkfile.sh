@@ -10,6 +10,6 @@ SCRIPT_PATH="/home/kingsley/email.sh"
 if [ -f "$FILE" ]; then
         exec "$SCRIPT_PATH"
 else
-        echo "----------------cheching--------------------"
+        echo "----------------cheching-------------------- still cheching ------"
         echo "$FILE do not exist. "
 fi
